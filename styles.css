@@ -42,6 +42,10 @@ img {
     width: 100%;
 }
 
+.logo:hover {
+    opacity: 0.92;
+}
+
 button {
     cursor: pointer;
 }
@@ -266,6 +270,7 @@ h1 {
     margin-bottom: 24px;
     text-transform: uppercase;
     text-align: center;
+    font-style: italic;
 }
 
 .header__sub-title {
