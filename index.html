@@ -23,8 +23,6 @@
                     </figure>
                 </a>
                 <ul class="nav__links">
-                    <li class="nav__link"><a href="#socials" class="nav__link--anchor link__hover-effect 
-                        link__hover-effect--red">SOCIALS</a></li>
                     <li class="nav__link"><a href="#" class="nav__link--anchor link__hover-effect 
                         link__hover-effect--red  link--notavailable">JOIN 999</a></li>
                     <!--subscription to e-mail list-->
@@ -32,80 +30,37 @@
                         link__hover-effect--red">SHOP</a></li>
                 </ul>
                 <!-- mobile menu-->
-                <button class="btn__menu" onclick="openMenu()">
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="menu__backdrop">
-                    <button class="btn__menu btn__menu--close" onclick="closeMenu()">
-                        <i class="fas fa-times"></i>
+                    <button class="btn__menu" onclick="openMenu()">
+                        <i class="fas fa-bars"></i>
                     </button>
-                    <ul class="menu__links">
-                        <li class="menu__list">
-                            <a href="#socials" class="menu__link" onclick="closeMenu()">SOCIALS</a>
-                        </li>
-                        <li class="menu__list">
-                            <a href="" class="menu__link link--notavailable">JOIN 999</a>
-                        </li>
-                        <li class="menu__list">
-                            <a href="#features" class="menu__link" onclick="closeMenu()">SHOP</a>
-                        </li>
-                    </ul>
-                </div>
+                    <div class="menu__backdrop">
+                        <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                            <i class="fas fa-times"></i>
+                        </button>
+                        <ul class="menu__links">
+                            <li class="menu__list">
+                                <a href="" class="menu__link link--notavailable">JOIN 999</a>
+                            </li>
+                            <li class="menu__list">
+                                <a href="#features" class="menu__link" onclick="closeMenu()">SHOP</a>
+                            </li>
+                        </ul>
+                    </div>
             </div>
         </nav>
         <header>
             <div class="header__container">
                 <div class="header__description">
-                    <h1>Official 999Club Shop</h1>
-                    <h2 class="header__sub-title">Honors Jarad "<span class="text--red">Juice WLRD</span>" Higgins and
+                    <h1 class="header__title">Official 999Club Shop</h1>
+                    <h2 class="header__sub-title">Honors Jarad "<span class="text--red text--bold">Juice WLRD</span>" Higgins and
                         supports young people in their battles with addiction,
                         anxiety and depression.</h2>
+                    <button class="btn header__btn"><a href="#features">SHOP NOW</a></button>
                 </div>
-                <figure class="header__img--wrapper link--notavailable">
-                    <img class="header__img" src="./assets/999feed.png" alt="gif">
-                    <!--for later, make real feed, clickable to instagram etc. OR product pictures with links-->
-                </figure>
             </div>
         </header>
     </section>
     <main>
-        <section id="socials">
-            <div class="container">
-                <div class="row">
-                    <h2 class="section__title">
-                        VISIT OUR SOCIALS</span>
-                    </h2>
-                    <div class="social__wrapper">
-                        <div class="social">
-                            <a class="social__anchor" href="https://www.youtube.com/channel/UC0BletW9phE4xHFM44q4qKA"
-                                target="_blank">
-                                <div class="social__img">
-                                    <i class="fa-brands fa-youtube"></i>
-                                </div>
-                            </a>
-                            <h3 class="social__sub-title">@Juice WRLD</h3>
-                        </div>
-                        <div class="social">
-                            <a class="social__anchor" href="https://www.instagram.com/999.club/" target="_blank">
-                                <div class="social__img">
-                                    <i class="fa-brands fa-instagram"></i>
-                                </div>
-                            </a>
-                            <h3 class="social__sub-title">@999.club</h3>
-                        </div>
-                        <div class="social">
-                            <a class="social__anchor" href="https://twitter.com/juiceworlddd" target="_blank">
-                                <div class="social__img">
-                                    <i class="fa-brands fa-twitter"></i>
-                                </div>
-                            </a>
-                            <h3 class="social__sub-title">@juiceworlddd</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <section id="features">
             <div class="container">
                 <div class="row">
@@ -119,7 +74,7 @@
                     <div class="items">
                         <div class="item">
                             <figure class="item__img--wrapper">
-                                <img id="product1" class="item__img" src="./assets/black-hoodie-1-front.jpg" onmouseover="onHover1();" onmouseout="offHover1();">
+                                <img id="product1" class="item__img" src="./assets/black-hoodie-1-front.jpg">
                             </figure>
                             <div class="item__title">
                                 JUICE WRLD <span class="text--red">X</span> VLONE BONES HOODIE BLACK
@@ -130,7 +85,7 @@
                         </div>
                         <div class="item">
                             <figure class="item__img--wrapper">
-                                <img id="product2" class="item__img" src="./assets/white-hoodie-1-front.jpg" onmouseover="onHover2();" onmouseout="offHover2();">
+                                <img id="product2" class="item__img" src="./assets/white-hoodie-1-front.jpg">
                             </figure>
                             <div class="item__title">
                                 JUICE WRLD <span class="text--red">X</span> VLONE BONES HOODIE WHITE
@@ -141,7 +96,7 @@
                         </div>
                         <div class="item">
                             <figure class="item__img--wrapper">
-                                <img id="product3" class="item__img" src="./assets/black-hoodie-2-front.jpg" onmouseover="onHover3();" onmouseout="offHover3();">
+                                <img id="product3" class="item__img" src="./assets/black-hoodie-2-front.jpg">
                             </figure>
                             <div class="item__title">
                                 JUICE WRLD <span class="text--red">X</span> VLONE LUMIN HOODIE BLACK
@@ -152,7 +107,7 @@
                         </div>
                         <div class="item">
                             <figure class="item__img--wrapper">
-                                <img id="product4" class="item__img" src="./assets/white-hoodie-2-front.jpg" onmouseover="onHover4();" onmouseout="offHover4();">
+                                <img id="product4" class="item__img" src="./assets/white-hoodie-2-front.jpg">
                             </figure>
                             <div class="item__title">
                                 JUICE WRLD <span class="text--red">X</span> VLONE LUMIN HOODIE WHITE
