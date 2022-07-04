@@ -43,7 +43,7 @@ img {
 }
 
 .logo:hover {
-    opacity: 0.92;
+    filter: brightness(110%);
 }
 
 button {
@@ -182,7 +182,7 @@ nav {
 
 .menu__backdrop {
     position: absolute;
-    background: rgba(33, 33, 33, 0.5);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.16),rgba(0, 0, 0, 0.40));
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(2.5px);
     -webkit-backdrop-filter: blur(2.5px);
@@ -233,7 +233,7 @@ nav {
 .btn__menu--close {
     position: absolute;
     right: 20px;
-    top: 28px;
+    top: 20px;
     padding: 8px;
     color: #fff;
 }
@@ -242,7 +242,7 @@ nav {
 
 
 #landing {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.16),rgba(0, 0, 0, 0.32)), 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.16),rgba(0, 0, 0, 0.48)), 
     url("./assets/1080658.jpg");
     background-position: center;
     background-size: cover;
@@ -364,7 +364,7 @@ header {
 /* full-shop link */
 
 #full-shop {
-    background-color: #fff;
+    background-color: rgb(233, 231, 231);
 }
 
 #full-shop i {
@@ -453,6 +453,18 @@ footer {
 
 /* SMALL PHONES, LARGE SMARTPHONES */
 @media (max-width: 550px) {
+    nav {
+        height: 100px;
+    }
+
+    header {
+        height: calc(100vh - 100px)
+    }
+
+    .container {
+        padding: 40px 0 20px 0;
+    }
+
     .nav__links {
         display: none;
     }
