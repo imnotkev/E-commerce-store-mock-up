@@ -160,6 +160,14 @@ function getItems() {
             salePrice: null,
             amountSold: 250,
           },
+          {
+            id: 13,
+            title: "FIGHTING DEMONS ALBUM COVER TEE WHITE",
+            url: "./assets/juice-white-tee.jpg",
+            originalPrice: 34.99,
+            salePrice: null,
+            amountSold: 590,
+          },
         ])
       }, 1000);
     });
