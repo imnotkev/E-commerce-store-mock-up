@@ -524,6 +524,10 @@ SHOP
     select {
         max-width: 160px;
     }
+
+    .items__loading {
+        padding: 210px 0;
+    }
 }
 
 
