@@ -321,6 +321,8 @@ header {
     background-color: #242424;
     color: #fff;
     padding: 8px 0;
+    max-width: 300px;
+    margin: 0 auto;
 }
 
 .items {
@@ -460,6 +462,7 @@ SHOP
   .shop__header--title {
     font-size: 28px;
     margin-bottom: 0;
+
   }
   
   select {
