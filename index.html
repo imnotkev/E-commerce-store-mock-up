@@ -5,11 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juice WRLD | 999Store</title>
+    <title>Juice WRLD | 999Store >Home</title>
     <link rel="icon" type="image/x-icon" href="./assets/earth.png">
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/aff5e32dc8.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
     <script src="index.js"></script>
 </head>
 
@@ -23,11 +22,10 @@
                     </figure>
                 </a>
                 <ul class="nav__links">
+                    <li class="nav__link"><a href="./shop.html" class="nav__link--anchor link__hover-effect 
+                        link__hover-effect--red">SHOP</a></li>
                     <li class="nav__link"><a href="#" class="nav__link--anchor link__hover-effect 
                         link__hover-effect--red  link--notavailable">JOIN 999</a></li>
-                    <!--subscription to e-mail list-->
-                    <li class="nav__link"><a href="#features" class="nav__link--anchor link__hover-effect 
-                        link__hover-effect--red">SHOP</a></li>
                 </ul>
                 <!-- mobile menu-->
                     <button class="btn__menu" onclick="openMenu()">
@@ -39,10 +37,10 @@
                         </button>
                         <ul class="menu__links">
                             <li class="menu__list">
-                                <a href="" class="menu__link link--notavailable">JOIN 999</a>
+                                <a href="./shop.html" class="menu__link" onclick="closeMenu()">SHOP</a>
                             </li>
                             <li class="menu__list">
-                                <a href="#features" class="menu__link" onclick="closeMenu()">SHOP</a>
+                                <a href="" class="menu__link link--notavailable">JOIN 999</a>
                             </li>
                         </ul>
                     </div>
@@ -64,7 +62,7 @@
         <section id="features">
             <div class="container">
                 <div class="row">
-                    <h2 class="section__title section__title--primary">
+                    <h2 class="section__title section__title--primary section__title--feature">
                         <span class="text--red">VLONE</span> X 999
                     </h2>
                     <p class="section__title--desc">
@@ -123,7 +121,7 @@
         <section id="regular">
             <div class="container">
                 <div class="row">
-                    <h2 class="section__title">ALBUM ESSENTIALS</h2>
+                    <h2 class="section__title section__title--regular">ALBUM ESSENTIALS</h2>
                     <div class="items">
                         <div class="item">
                             <figure class="item__img--wrapper">
@@ -221,7 +219,7 @@
             <div class="container">
                 <div class="row row__column">
                     <h2 class="section__title">VISIT <span class="text--red">FULL</span> SHOP</h2>
-                    <a href="#features">
+                    <a href="./shop.html">
                         <button class="btn full-shop__btn"><i class="fa-solid fa-cart-shopping"></i></button>
                     </a>
                 </div>
