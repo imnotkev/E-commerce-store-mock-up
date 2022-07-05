@@ -47,6 +47,10 @@ img {
     filter: brightness(110%);
 }
 
+.logo {
+    filter: invert(0);
+}
+
 button {
     cursor: pointer;
 }
@@ -139,8 +143,16 @@ button:hover {
 nav {
     height: 120px;
     display: flex;
+}
+
+#nav--index {
+    background-color: rgba(100,100,100,0.25);
+    border: 1px solid #24242421;
+    
+}
+
+#nav--shop {
     background-color: #242424;
-  
 }
 
 .nav__container {
@@ -272,7 +284,7 @@ header {
 .header__title {
     font-size: 52px;
     margin-bottom: 16px;
-    text-transform: uppercase;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     text-align: center;
     padding: 0px 12px;
     font-family: 'Permanent Marker', cursive !important;
