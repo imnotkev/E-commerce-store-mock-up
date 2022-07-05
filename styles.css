@@ -432,6 +432,14 @@ footer {
     margin-bottom: 32px;
 }
 
+.footer__copy {
+    color: rgb(87, 87, 87);
+    margin-top: 24px;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 /* 
 
 SHOP
